@@ -8,13 +8,16 @@ A simple command line ARP/TCP scanning tool.
 
 Download the `gping.py` script and
 use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependencies.
-
+```bash
+pip install -r requirements.txt
+```
+or
 ```bash
 pip install socket
 pip install logging
 pip install scapy
 pip install argparse
-pip install OuiLookup
+pip install ouilookup
 ```
 
 ## Usage
