@@ -1,0 +1,5 @@
+socket
+logging
+scapy
+argparse
+ouilookup
