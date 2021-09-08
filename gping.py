@@ -8,7 +8,7 @@ from OuiLookup import OuiLookup
 def main():        
     parser = argparse.ArgumentParser(description='A simple command line ARP/TCP scanning tool. Use -a to perform an ARP scan on a given subnet. Use -t to perform a TCP SYN scan, ' 
                                                 'if no ports are selected then ports 1-1024 will be scanned. Use -p to specify ports. Please see the arguments for examples.')
-    parser.add_argument('-a', '--arp', help='perform an arp-scan on the provided subnet which will return MAC, IP, and OUI lookup. ex: gping.py -a 10.0.0.0/24')
+    parser.add_argument('-a', '--arp', help='perform an arp-scan on the provided subnet or IP which will return MAC, IP, and OUI lookup. ex: gping.py -a 10.0.0.1 or gping.py -a 10.0.0.0/24')
     parser.add_argument('-t', '--tcp', help='perform a tcp-scan on the provided subnet. ex: gping.py -t 10.0.0.1')
     parser.add_argument('-p', '--ports', help='specify ports to be scanned (80 443 22...). ex: gping.py -t 10.0.0.1 -p 443', nargs='*', type=int)                 
     parser.add_argument('-o', '--output', help='output results to a file of your choice')
