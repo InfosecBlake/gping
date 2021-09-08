@@ -7,7 +7,7 @@ A simple command line ARP/TCP scanning tool.
 ## About
 
 #### gping is a command line ARP/TCP scan tool used to quickly discover devices and open ports. 
-The ARP scan can be done on a single host or an entire subnet. The ARP scan will return the IP, MAC, and perform an OUI lookup of the host to determine the type of device. These results can be output to a file of your choosing.
+The ARP scan can be done on a single host or an entire subnet. The ARP scan will return the IP, MAC, and perform an OUI lookup of the host to determine the type of device. These results can be output to a file of your choosing This tool is in its early stages.
 The TCP scan will scan a single host for designated ports, or if no ports are given then the tool will scan ports 1-1024. The results are returned with TCP flag. This tool will only send an initial SYN flag and will look for a SYN ACK in return. Known ports will be displayed as their protocal. i.e. 22 - ssh, 443 - https
 
 ## Installation
