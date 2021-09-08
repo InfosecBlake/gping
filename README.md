@@ -2,7 +2,7 @@
 
 A simple command line ARP/TCP scanning tool.
 
-![gpingpy_image](https://user-images.githubusercontent.com/87310427/132440645-543b8dde-fd81-48f3-8505-301d69273e69.png)
+![gping py_img](https://user-images.githubusercontent.com/87310427/132441157-ea211808-7099-415f-b498-94ce562203fb.PNG)
 
 ## Installation
 
