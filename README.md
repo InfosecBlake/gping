@@ -2,7 +2,13 @@
 
 A simple command line ARP/TCP scanning tool.
 
-![gping py_img](https://user-images.githubusercontent.com/87310427/132441157-ea211808-7099-415f-b498-94ce562203fb.PNG)
+                                           _____ _____ _____ _   _  _____ 
+                                          / ____|  __ \_   _| \ | |/ ____|
+                                         | |  __| |__) || | |  \| | |  __ 
+                                         | | |_ |  ___/ | | | . ` | | |_ |
+                                         | |__| | |    _| |_| |\  | |__| |
+                                          \_____|_|   |_____|_| \_|\_____|
+
 
 ## About
 
@@ -20,11 +26,12 @@ pip install -r requirements.txt
 ```
 or
 ```bash
-pip install socket
 pip install logging
 pip install scapy
 pip install argparse
 pip install ouilookup
+pip install random
+pip install datetime
 ```
 
 ## Usage
