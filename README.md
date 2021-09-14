@@ -44,6 +44,35 @@ or use the following for help:
 ```bash
 python gping.py --help
 ```
+```bash
+      _____ _____ _____ _   _  _____
+     / ____|  __ \_   _| \ | |/ ____|
+    | |  __| |__) || | |  \| | |  __
+    | | |_ |  ___/ | | | . ` | | |_ |
+    | |__| | |    _| |_| |\  | |__| |
+     \_____|_|   |_____|_| \_|\_____|
+
+
+usage: gping.py [-h] [-a ARP] [-t TCP] [-p [PORT ...]] [-o OUTPUT]
+
+A simple command line ARP/TCP scanning tool. Use -a to perform an ARP scan on
+a given subnet. Use -t to perform a TCP SYN scan, if no port are selected then
+port 1-1024 will be scanned. Use -p to specify port. Please see the arguments
+for examples.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a ARP, --arp ARP     perform an arp-scan on the provided subnet or IP which
+                        will return MAC, IP, and OUI lookup. ex: gping.py -a
+                        10.0.0.1 or gping.py -a 10.0.0.0/24
+  -t TCP, --tcp TCP     perform a tcp-scan on the provided subnet. ex:
+                        gping.py -t 10.0.0.1
+  -p [PORT ...], --port [PORT ...]
+                        specify port to be scanned (80 443 22...). ex:
+                        gping.py -t 10.0.0.1 -p 443
+  -o OUTPUT, --output OUTPUT
+                        output results to a file of your choice
+```
 
 ## Pipeline
 This tool will be continue to be updated, if you would like a feature please put in an issue and I will address it when available. 
